@@ -249,7 +249,70 @@ body, p, h1, h2, h3, h4, h5 {
       padding-right: 15px;
    }
 
+   .image_service {
+      display: block;
+   }
 
+      #sticky-menu-con {
+         position: sticky;
+         top: 0px;
+         background-color: #fff;
+         z-index: 1;
+      }
+   
+   
+      #burger-con {
+         margin-bottom: 20px;
+         display: block;
+         font-size: 16px;
+         margin-top: 28px;
+      }
+   
+      #burger-con ul li, #burger-con ul li:first-child {
+         border: none;
+         display: inline;
+         margin-right: 25px;
+      }
+   
+      #main-menu ul li a {
+         display: inline;
+      }
+   
+      #burger-con ul li {
+         margin-right: 10px;
+      }
+   
+      #burger-con ul li:last-child {
+         margin-right: 0px;
+      }
+   
+      #main-header {
+         height: 100px;
+      }
+   
+      #main-menu {
+         padding-left: 25px;
+         margin-top: 2%;
+         margin-bottom: 2%;
+      }
+   
+      #footer-nav {
+       display: block;
+    }
+   
+      #footer-menu ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+      }
+   
+      #footer-menu ul li a {
+         color: #fff;
+      }
+   
+      #footer-menu ul li {
+         margin-bottom: 20px;
+      }
   
 
    .l-col-span-1	{grid-column: span 1 / span 1;}
@@ -294,10 +357,7 @@ body, p, h1, h2, h3, h4, h5 {
    .l-col-end-12	{grid-column-end: 12;}
    .l-col-end-13	{grid-column-end: 13;}
 
-
-
-   .image_service {
-      display: block;
-
    }
-}
+
+   
+   
