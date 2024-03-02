@@ -1,0 +1,288 @@
+.hero{
+    height: 400px;
+    background-color: rgb(168, 168, 168);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+   
+  }
+ 
+ 
+  .hero_text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+    color: #000000;
+    margin-top: 100px;
+ 
+ 
+  }
+ 
+  .box_service_text{
+    height: 150px;
+  }
+ 
+  .box_image_service{
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 0px;
+  }
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  .box_titles{
+    height: 55px;
+    background-color:#fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+ 
+  .box_text{
+    padding: 0px;
+    background-color:#fff;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-bottom: 30px;
+  }
+ 
+ 
+  .h2_products{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+    color: #000;
+ 
+ 
+  }
+ 
+ 
+  .h2_service_2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 40px;
+    font-style: normal;
+    color: #000;
+    margin-top: 20px;
+    text-align: center;
+ 
+ 
+  }
+ 
+ 
+  .service_section{
+    margin-top: 1000px;
+  }
+ 
+  .p_description{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: normal;
+    color: #000;
+ 
+  }
+ 
+  .p_service_description{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
+    font-style: normal;
+    color: #000;
+    margin-top: 40px;
+ 
+  }
+ 
+  .footer{
+    height: 150px;
+  }
+ 
+  .spacing_lines{
+    margin-top:100px;
+    margin-bottom:100px;
+  }
+ 
+  .btn_l_box{
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    display: block;
+ 
+  
+  }
+  .btn_text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 14px;
+    font-style: normal;
+    color: #000000;
+    margin-top: 12px;
+    text-align: center;
+    padding: 15px;
+ 
+  }
+ 
+ 
+ 
+  .img_text{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 14px;
+    font-style: normal;
+    color: #000000;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+ 
+  }
+ 
+ 
+  .text_service_image{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 14px;
+    font-style: normal;
+    color: #000000;
+    margin-top: 12px;
+    text-align: center;
+    padding: 90px;
+ 
+  }
+ 
+ 
+ 
+  .btn_box{
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+
+
+#main-menu button {
+   width: 20px;
+   height: 20px;
+   background: url(../images/BURGER.svg) no-repeat center;
+   margin-top: 15px;
+   margin-bottom: 20px;
+   transition: all .5s ease;
+   border: 0;
+}
+
+
+#burger-con {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   display: none;
+}
+
+
+#main-menu ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+#main-menu ul li a {
+   display: block;
+   padding: 10px 0 10px 0;
+   text-align: center;
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-size: 14px;
+   font-style: normal;
+   color: #000000;
+   margin-top: 100px;
+   margin-left: 100px;
+}
+
+
+/* 10. ---Desktop Sized Screens--- */
+
+
+@media screen and (min-width: 1200px) { 
+
+   #sticky-menu-con {
+      position: sticky;
+      top: 0px;
+      background-color: #fff;
+      z-index: 1;
+   }
+
+
+   #burger-con {
+      margin-bottom: 20px;
+      display: block;
+      font-size: 16px;
+      margin-top: 28px;
+   }
+
+   #burger-con ul li, #burger-con ul li:first-child {
+      border: none;
+      display: inline;
+      margin-right: 25px;
+   }
+
+   #main-menu ul li a {
+      display: inline;
+   }
+
+   #burger-con ul li {
+      margin-right: 10px;
+   }
+
+   #burger-con ul li:last-child {
+      margin-right: 0px;
+   }
+
+   #main-header {
+      height: 100px;
+   }
+
+   #main-menu {
+      padding-left: 25px;
+      margin-top: 2%;
+      margin-bottom: 2%;
+   }
+
+   #footer-nav {
+    display: block;
+ }
+
+   #footer-menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   #footer-menu ul li a {
+      color: #fff;
+   }
+
+   #footer-menu ul li {
+      margin-bottom: 20px;
+   }
+
+}
